@@ -1,0 +1,319 @@
+/********* GENERAL *********/
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  font-family: 'Lora', serif;
+  color: #575757; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Istok Web', sans-serif;
+  color: #111111; }
+
+.pad-top {
+  padding-top: 100px; }
+
+.pad-bottom {
+  padding-bottom: 100px; }
+
+.pad-left {
+  padding-left: 100px; }
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+/********* HERO *********/
+#hero {
+  position: relative;
+  background: url("../img/coffee-cafe@2x.jpg") no-repeat center center fixed;
+  max-width: 100%;
+  min-height: 580px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  #hero .primary-overlay {
+    background: rgba(0, 0, 0, 0.48);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #hero h1 {
+    color: #fff;
+    margin-top: 180px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  #hero .hero-para {
+    color: #fff;
+    font-size: 1.8rem; }
+  #hero a.logo {
+    display: inline-block;
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Istok Web', sans-serif;
+    text-decoration: none; }
+    #hero a.logo:hover {
+      color: #F59E5B;
+      -o-transition: color .5s ease-out, color 0.5s ease-in;
+      -ms-transition: color .5s ease-out, color 0.5s ease-in;
+      -moz-transition: color .5s ease-out, color 0.5s ease-in;
+      -webkit-transition: color .5s ease-out, color 0.5s ease-in;
+      transition: color .5s ease-out, color 0.5s ease-in; }
+    #hero a.logo .hero-logo {
+      margin-top: -10px;
+      width: 40px;
+      height: auto;
+      margin-right: 12px; }
+  #hero .hero-btn {
+    color: #fff;
+    font-family: 'Istok Web', sans-serif;
+    margin-top: 30px;
+    background-color: #F59E5B;
+    border: 2px solid #F59E5B;
+    -webkit-box-shadow: 0px 3px 20px #868686;
+    -moz-box-shadow: 0px 3px 20px #868686;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.8);
+    -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+    #hero .hero-btn:hover {
+      background-color: transparent;
+      text-decoration: none;
+      color: #fff; }
+
+/********* INFO VARIETY *********/
+#info-variety {
+  position: relative;
+  background: url("../img/marble-stone-wht@2x.jpg") no-repeat center center fixed;
+  max-width: 100%;
+  min-height: 1390px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  #info-variety .primary-overlay {
+    background: rgba(213, 213, 213, 0.41);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #info-variety .info-para {
+    padding: 15px 0 70px;
+    font-size: 1.2rem;
+    letter-spacing: 1px; }
+  #info-variety .cup-sm {
+    margin-bottom: 60px; }
+  #info-variety .cup img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 30px; }
+
+/********* INFO BEANS *********/
+#info-beans .container-fluid {
+  padding: 0 !important; }
+
+#info-beans .beans {
+  padding-left: 50px;
+  padding-right: 60px; }
+  #info-beans .beans p {
+    font-size: 1.2rem; }
+  #info-beans .beans .beans-btn {
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    color: #fff;
+    font-family: 'Istok Web', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: #F59E5B;
+    border: 2px solid #F59E5B;
+    -webkit-box-shadow: 0px 3px 20px #868686;
+    -moz-box-shadow: 0px 3px 20px #868686;
+    box-shadow: 0px 3px 20px #868686;
+    -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+    #info-beans .beans .beans-btn:hover {
+      background-color: transparent;
+      text-decoration: none;
+      color: #575757; }
+
+#info-beans .coffee-bowl {
+  position: relative;
+  background: url("../img/beans-lg.jpg") no-repeat center center;
+  max-width: 100%;
+  min-height: 400px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+/********* BEST COFFEE *********/
+#best {
+  position: relative;
+  background: url("../img/cup.jpg") no-repeat top center fixed;
+  max-width: 100%;
+  min-height: 1000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+  #best .primary-overlay {
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #best h2.pad-top {
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700; }
+  #best .best-icons img {
+    padding-bottom: 30px;
+    width: 70px;
+    height: auto; }
+  #best .best-icons .cow {
+    width: 50px;
+    height: auto; }
+  #best h4.best-title {
+    color: #F59E5B;
+    padding-bottom: 50px;
+    text-transform: uppercase; }
+  #best .best-para {
+    font-size: 1.3rem;
+    color: #fff; }
+
+/********* GALLERY *********/
+#gallery .container-fluid {
+  padding: 0 !important; }
+
+#blog h2 {
+  padding-bottom: 20px;
+  font-size: 2.25rem;
+  text-transform: uppercase; }
+
+#blog p {
+  font-size: 1.5rem;
+  margin-bottom: 60px; }
+
+#blog .blog-btn {
+  font-size: 1.2rem;
+  padding: 8px 15px;
+  color: #fff;
+  font-family: 'Istok Web', sans-serif;
+  background-color: #F59E5B;
+  border: 2px solid #F59E5B;
+  -webkit-box-shadow: 0px 3px 20px #868686;
+  -moz-box-shadow: 0px 3px 20px #868686;
+  box-shadow: 0px 3px 20px #868686;
+  -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+  -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+  -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+  -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+  transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+  #blog .blog-btn:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #575757; }
+
+/********* FOOTER *********/
+#footer {
+  position: relative;
+  color: #fff; }
+  #footer h2 {
+    color: #fff;
+    padding-bottom: 40px;
+    text-transform: uppercase; }
+  #footer h4 {
+    color: #F59E5B;
+    letter-spacing: 1px; }
+  #footer p {
+    padding-bottom: 10px; }
+  #footer p:last-child {
+    padding-bottom: 0; }
+  #footer .footer-hours {
+    background: url("../img/footer-hours@2x.jpg") no-repeat 100%, 100% fixed;
+    max-width: 100%;
+    min-height: 450px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; }
+  #footer .footer-contact {
+    background-color: #13141B; }
+  #footer .footer-btn {
+    font-size: 1.2rem;
+    padding: 6px 8px;
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Istok Web', sans-serif;
+    background-color: #F59E5B;
+    border: 2px solid #F59E5B;
+    -webkit-box-shadow: 0px 3px 20px #868686;
+    -moz-box-shadow: 0px 3px 20px #868686;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.8);
+    -o-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -ms-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -moz-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    -webkit-transition: background-color .5s ease-out, background-color 0.5s ease-in;
+    transition: background-color .5s ease-out, background-color 0.5s ease-in; }
+    #footer .footer-btn:hover {
+      background-color: transparent;
+      text-decoration: none;
+      color: #fff; }
+
+/*
+*******************************
+M E D I A  Q U E R I E S
+*******************************
+*/
+@media (min-width: 768px) {
+  #hero {
+    min-height: 620px; }
+    #hero h1 {
+      font-size: 3.6rem !important;
+      margin-top: 240px; }
+    #hero .hero-para {
+      font-size: 2rem;
+      margin-top: -10px; }
+  #info-variety {
+    min-height: 700px; }
+    #info-variety .cup-sm {
+      margin-bottom: 50px; }
+    #info-variety .cup img {
+      width: 150px;
+      height: auto;
+      margin-bottom: 50px; }
+  #best {
+    min-height: 550px; }
+    #best img {
+      padding-bottom: 40px; }
+    #best h4.best-title {
+      padding-bottom: 30px; } }
+
+@media (min-width: 1000px) {
+  #info-beans .beans {
+    padding-left: 150px;
+    padding-right: 100px; }
+  #blog p {
+    padding: 0 140px; } }
